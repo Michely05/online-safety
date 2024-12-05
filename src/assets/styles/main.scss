@@ -8,12 +8,14 @@
  */
 
 @import "variables";
+@import "header";
 
 /**
  * Import npm dependencies
  * see: https://v2.parceljs.org/features/module-resolution/
  * see commented examples below
  */
+@import "bootstrap/scss/bootstrap.scss";
 
 // @import "some-node-module";
 // @import "@some-company/some-node-module";

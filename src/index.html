@@ -10,20 +10,27 @@
 </head>
 
 <body>
-  <!-- <div class="uoc-container">
-    <picture>
-      <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
-      <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />
-    </picture>
-    <h1 class="uoc-title">Hello, UOC!</h1>
-    <p>
-      This is a starter template for the Advanced HTML and CSS Tools courses
-      from the Master's Program in Multimedia Applications and the Master's
-      Program in Web App and Website Develo pment at the Universitat Oberta de
-      Catalunya.
-    </p>
-  </div> -->
-  <include src="./views/footer.html"></include>
+  <include src="./components/header.html"></include>
+  <main>
+    <div class="container-fluid" style="margin: 0; padding: 0;">
+      <div class="grid-layout">
+        <div class="grid-item">
+          <img src="./assets/images/landing-img.png" class="img-fluid" alt="Imagen de la jornada">
+        </div>
+        <div class="grid-item col-8 text-center" style="border: 1px solid red">
+          <h2 class="text-primary text-center">JORNADA DE SEGURIDAD INFORMÁTICA 2024</h2>
+          <p>
+            En un mundo cada vez más conectado, comprender y abordar los retos de la ciberseguridad es esencial. Este
+            evento es una oportunidad para profundizar en tecnologías clave, analizar amenazas emergentes y construir
+            juntos un entorno digital más seguro. Prepárate para un intercambio de conocimientos que reforzará nuestra
+            capacidad de proteger y avanzar en el mundo digital.
+          </p>
+          <p><strong>Protege el futuro, aprende hoy</strong></p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <include src="./components/footer.html"></include>
   <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
 </body>
 

@@ -1,0 +1,18 @@
+body {
+  font-family: $font-family, sans-serif !important;
+}
+.navbar-brand img {
+  height: 3rem !important;
+}
+
+.nav-item {
+  margin-left: 4rem;
+}
+
+.nav-link {
+  padding: 0.5rem;
+  color: #ffff !important;
+  &:hover {
+    color: #ffc107 !important;
+  }
+}
