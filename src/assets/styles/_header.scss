@@ -18,6 +18,10 @@ body {
   color: #ffc107 !important; /* Amarillo al pasar el mouse */
 }
 
+.navbar-nav .nav-link.active {
+  font-weight: bold !important;
+}
+
 .nav-item {
   margin-left: 4rem;
 }

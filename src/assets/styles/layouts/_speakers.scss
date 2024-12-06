@@ -1,25 +1,21 @@
-* {
-  box-sizing: border-box;
-}
+.custom-speakers-container {
+  padding: 1rem;
 
-body {
-  background-color: $background-color;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  p {
-    font-family: $font-family;
-    color: #ffffff;
-    font-size: $font-size;
+  .speaker-item {
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    .speaker-img {
+      width: 50%;
+    }
+    h3 {
+      color: #ffff;
+      padding-top: 2rem;
+    }
+    .speaker-text {
+      font-size: 1rem;
+      text-align: center;
+      padding: 0 1rem;
+    }
   }
-
-  .container-fluid {
-    margin: 0;
-    padding: 0;
-  }
-}
-
-h2 {
-  font-size: 3rem;
-  font-weight: 600;
 }

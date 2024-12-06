@@ -3,22 +3,17 @@
 
 $font-family: "Montserrat", sans-serif;
 $font-size: 22px;
-$background-color: #222222;
+$background-color: color(display-p3 0.133 0.133 0.133);
 $theme-colors: (
-  "primary": #ffc107,
+  "primary": hwb(50deg 0% 0%),
 );
-$primary-color: #ffc107;
+$primary-color: hwb(50deg 0% 0%);
 
 $breakpoint-md: 768px;
 $breakpoint-lg: 1200px;
 $muted: #fff;
+
 // $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
 //   "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
 //   "Segoe UI Symbol";
 // $font-family-serif: "Georgia", "Times New Roman", serif;
-
-// $uoc-corporate: #000078;
-// $uoc-masterbrand: #73edff;
-// $uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
-
-// $mqMinWidth: 420px;
