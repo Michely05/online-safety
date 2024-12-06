@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $background-color;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  p {
+    font-family: $font-family;
+    color: #ffffff;
+    font-size: $font-size;
+  }
+
+  .container-fluid {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
