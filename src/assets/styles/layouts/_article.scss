@@ -26,10 +26,11 @@ p {
     font-size: 2.3rem;
     margin: 0;
   }
-  .custom-article-text2 {
-    p {
-      font-size: 1.3rem;
-    }
+}
+
+.custom-article-text2 {
+  p {
+    font-size: 1.3rem;
   }
 }
 
@@ -37,15 +38,28 @@ p {
   color: #fff;
   text-align: center;
   font-size: 2.3rem;
+  padding-bottom: 1.5rem;
 }
 
 .article-list {
-  padding: 2rem 0;
+  padding: 0;
   gap: 1rem;
   .article-item {
     padding-bottom: 0.5rem;
     p {
       font-size: 1.3rem;
     }
+  }
+}
+
+.article-img-container {
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .figure-caption {
+    color: #ffff;
+    font-size: 1.2rem;
   }
 }
