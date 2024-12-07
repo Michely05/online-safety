@@ -1,0 +1,30 @@
+.page-header {
+  margin: 1rem 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.card-container {
+  padding: 20px;
+}
+
+.event-card {
+  background-color: #fff3cd;
+  border-radius: none;
+  border: none;
+}
+
+.date-col {
+  background-color: #ffc107;
+  /* Amarillo Bootstrap */
+}
+
+.status-free {
+  background-color: #49c16b;
+  /* Verde para LIBRE */
+}
+
+.status-full {
+  background-color: #d25c5c;
+  /* Rojo para LLENO */
+}
