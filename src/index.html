@@ -6,24 +6,32 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
   <title>Online Safety</title>
 </head>
 
 <body>
-  <!-- <div class="uoc-container">
-    <picture>
-      <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
-      <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />
-    </picture>
-    <h1 class="uoc-title">Hello, UOC!</h1>
-    <p>
-      This is a starter template for the Advanced HTML and CSS Tools courses
-      from the Master's Program in Multimedia Applications and the Master's
-      Program in Web App and Website Develo pment at the Universitat Oberta de
-      Catalunya.
-    </p>
-  </div> -->
-  <include src="./views/footer.html"></include>
+  <include src="./components/header.html"></include>
+  <main id="main-content">
+    <div class="container-fluid">
+      <div class="grid-layout">
+        <div class="grid-item">
+          <img src="./assets/images/landing-img.png" class="img-fluid" alt="Imagen de la jornada">
+        </div>
+        <div class="grid-item col-8 text-center custom-grid-item">
+          <h2 class="text-primary">JORNADA DE SEGURIDAD INFORMÁTICA 2024</h2>
+          <p>
+            En un mundo cada vez más conectado, comprender y abordar los retos de la ciberseguridad es esencial. Este
+            evento es una oportunidad para profundizar en tecnologías clave, analizar amenazas emergentes y construir
+            juntos un entorno digital más seguro. Prepárate para un intercambio de conocimientos que reforzará nuestra
+            capacidad de proteger y avanzar en la era digital.
+          </p>
+          <p><strong>Protege el futuro, aprende hoy</strong></p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <include src="./components/footer.html"></include>
   <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
 </body>
 

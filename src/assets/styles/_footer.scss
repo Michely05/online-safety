@@ -1,0 +1,29 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+footer {
+  padding: 20px 0;
+  border-top: 1px solid #fff;
+  color: white;
+  text-align: center;
+  width: 100%;
+
+  .sm-icons {
+    gap: 5rem;
+    i {
+      color: $primary-color;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+    :hover {
+      transform: scale(1.5);
+      transition: transform 0.4s ease, color 0.4s ease;
+      color: #fff;
+    }
+  }
+}
