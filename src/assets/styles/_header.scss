@@ -11,11 +11,11 @@ body {
 }
 
 .nav-link {
-  color: #fff !important;
+  color: color(display-p3 1 1 1) !important;
 }
 
 .nav-link:hover {
-  color: #ffc107 !important; /* Amarillo al pasar el mouse */
+  color: color(display-p3 1 0.756 0.027) !important;
 }
 
 .navbar-nav .nav-link.active {
@@ -28,8 +28,8 @@ body {
 
 .nav-link {
   padding: 0.5rem;
-  color: #ffff !important;
+  color: color(display-p3 1 1 1) !important;
   &:hover {
-    color: #ffc107 !important;
+    color: color(display-p3 1 0.756 0.027) !important;
   }
 }

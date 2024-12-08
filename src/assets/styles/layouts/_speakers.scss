@@ -6,6 +6,7 @@
 
 .custom-speakers-container {
   padding: 1rem;
+  container-type: inline-size;
 
   .speaker-item {
     justify-content: center;
@@ -22,6 +23,50 @@
       font-size: 1rem;
       text-align: center;
       padding: 0 1rem;
+    }
+  }
+}
+
+@container (min-width: 600px) {
+  .custom-speakers-container {
+    padding: 2rem;
+  }
+
+  .speaker-item {
+    .speaker-img {
+      width: 60%;
+    }
+    h3 {
+      font-size: 1.5rem;
+    }
+    .speaker-text {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+@container (min-width: 900px) {
+  .custom-speakers-container {
+    padding: 3rem;
+  }
+
+  .speaker-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    .speaker-img {
+      width: 70%;
+    }
+
+    h3 {
+      font-size: 2rem;
+      padding-top: 2.5rem;
+    }
+
+    .speaker-text {
+      font-size: 1.3rem;
     }
   }
 }
