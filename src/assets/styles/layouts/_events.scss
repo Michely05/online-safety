@@ -9,22 +9,63 @@
 }
 
 .event-card {
-  background-color: #fff3cd;
+  background-color: color(display-p3 1 0.952 0.804);
   border-radius: none;
   border: none;
 }
 
 .date-col {
-  background-color: #ffc107;
-  /* Amarillo Bootstrap */
+  background-color: color(display-p3 1 0.756 0.027);
 }
 
 .status-free {
-  background-color: #49c16b;
-  /* Verde para LIBRE */
+  background-color: color(display-p3 0.286 0.757 0.419);
 }
 
 .status-full {
-  background-color: #d25c5c;
-  /* Rojo para LLENO */
+  background-color: color(display-p3 0.824 0.361 0.361);
+}
+
+.container {
+  container-type: inline-size;
+}
+
+@container (min-width: 600px) {
+  .page-header {
+    font-size: 4rem;
+  }
+
+  .card-container {
+    padding: 30px;
+  }
+
+  .event-card {
+    background-color: color(display-p3 1 0.952 0.804);
+  }
+
+  .date-col {
+    background-color: color(display-p3 1 0.8 0.1);
+  }
+}
+
+@container (min-width: 800px) {
+  .page-header {
+    font-size: 5rem;
+  }
+
+  .card-container {
+    padding: 40px;
+  }
+
+  .event-card {
+    background-color: color(display-p3 1 0.952 0.804);
+  }
+
+  .date-col {
+    background-color: color(display-p3 1 0.7 0.2);
+  }
+}
+
+.col-10.container {
+  padding: 10px;
 }
